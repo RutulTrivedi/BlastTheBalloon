@@ -18,7 +18,7 @@ myBalloon = document.getElementById('balloonImg');
 
         function scorePlus() {
             scoreCount += 5;
-            myBalloon.src = 'boom3.svg';
+            myBalloon.src = 'IMAGES/Boom2.png';
             blastSound.play();
             scorer.innerHTML = "YOUR SCORE : " + scoreCount;
         }
